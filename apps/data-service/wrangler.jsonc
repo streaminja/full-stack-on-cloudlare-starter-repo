@@ -15,8 +15,8 @@
 		"stage": {
 			"routes": [
 				{
-					"zone_name": "smrtlk.com",
-					"pattern": "go-stage.smrtlk.com/*",
+					"zone_name": "servicebarracks.com",
+					"pattern": "go-stage.servicebarracks.com/*",
 				},
 			],
 			"browser": {
@@ -34,14 +34,14 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_id": "65409933-f910-4bab-8c45-469b94f2eb90",
+					"database_id": "5950c306-e1f7-455e-8df7-c802690cede3",
 					"remote": true,
 				},
 			],
 			"kv_namespaces": [
 				{
 					"binding": "CACHE",
-					"id": "449883df760f4836a5979287a20c3300",
+					"id": "712b83c9c29c4bb7b44caebc49f62ea6",
 					"remote": true,
 				},
 			],
@@ -96,8 +96,8 @@
 		"production": {
 			"routes": [
 				{
-					"zone_name": "smrtlk.com",
-					"pattern": "smrtlk.com/r/*",
+					"zone_name": "servicebarracks.com",
+					"pattern": "servicebarracks.com/r/*",
 				},
 			],
 			"browser": {
@@ -115,13 +115,13 @@
 			"d1_databases": [
 				{
 					"binding": "DB",
-					"database_id": "cdecc784-37f7-4c46-bf09-9a6bdad9452e",
+					"database_id": "8aedfa5a-965b-4ef0-b3f4-0b466047aa9c",
 				},
 			],
 			"kv_namespaces": [
 				{
 					"binding": "CACHE",
-					"id": "c39799a775b648e59b8fdc1e7395170b",
+					"id": "d082465491884ce08dc02d95583662a7",
 				},
 			],
 			"queues": {

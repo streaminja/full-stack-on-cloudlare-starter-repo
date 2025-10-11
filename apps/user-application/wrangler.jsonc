@@ -27,13 +27,13 @@
       "routes": [
         {
           "custom_domain": true,
-          "pattern": "stage.smrtlk.com",
+          "pattern": "stage.servicebarracks.com",
         },
       ],
       "d1_databases": [
         {
           "binding": "DB",
-          "database_id": "65409933-f910-4bab-8c45-469b94f2eb90",
+          "database_id": "5950c306-e1f7-455e-8df7-c802690cede3",
           "remote": true,
         },
       ],
@@ -49,13 +49,13 @@
       "routes": [
         {
           "custom_domain": true,
-          "pattern": "smrtlk.com",
+          "pattern": "servicebarracks.com",
         },
       ],
       "d1_databases": [
         {
           "binding": "DB",
-          "database_id": "cdecc784-37f7-4c46-bf09-9a6bdad9452e",
+          "database_id": "8aedfa5a-965b-4ef0-b3f4-0b466047aa9c",
           "remote": true,
         },
       ],
