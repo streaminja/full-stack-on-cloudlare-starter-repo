@@ -48,7 +48,8 @@ export class DestinationEvaluationWorkflow extends WorkflowEntrypoint<Env, Desti
 				},
 			},
 			async () => {
-				return await aiDestinationChecker(this.env, evaluationInfo.bodyText);
+				//return await aiDestinationChecker(this.env, evaluationInfo.bodyText);
+				return { status: 'active', statusReason: 'ai disabled' };
 			},
 		);
 
