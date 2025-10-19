@@ -15,8 +15,8 @@
 		"stage": {
 			"routes": [
 				{
-					"zone_name": "servicebarracks.com",
-					"pattern": "go-stage.servicebarracks.com/*",
+					"zone_name": "streaminja.com",
+					"pattern": "go-stage.streaminja.com/*",
 				},
 			],
 			"browser": {
@@ -96,8 +96,8 @@
 		"production": {
 			"routes": [
 				{
-					"zone_name": "servicebarracks.com",
-					"pattern": "servicebarracks.com/r/*",
+					"zone_name": "streaminja.com",
+					"pattern": "streaminja.com/r/*",
 				},
 			],
 			"browser": {

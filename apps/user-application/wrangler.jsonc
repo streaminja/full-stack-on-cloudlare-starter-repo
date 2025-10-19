@@ -19,15 +19,15 @@
   "env": {
     "stage": {
       "vars": {
-        "STRIPE_PRODUCT_BASIC": "price_1RwXlNHpob3EHbKhMjiWZEfa",
-        "STRIPE_PRODUCT_PRO": "price_1RwXmNHpob3EHbKhYXQMxvSn",
-        "STRIPE_PRODUCT_ENTERPRISE": "price_1RwXn3Hpob3EHbKht3rxzXKE",
-        "GOOGLE_CLIENT_ID": "497355098387-e2v8702a0g0s8l2otchlqi88klt3d0gh.apps.googleusercontent.com",
+        "STRIPE_PRODUCT_BASIC": "price_1SH2hAIxOrrhjQWbc0CHSUHg",
+        "STRIPE_PRODUCT_PRO": "price_1SH4HbIxOrrhjQWbsWpz69NX",
+        "STRIPE_PRODUCT_ENTERPRISE": "price_1SH4IRIxOrrhjQWbMJ7At1Sk",
+        "GOOGLE_CLIENT_ID": "29274304605-d34k39pa7lgp0m5pitrjtukofcf4d88g.apps.googleusercontent.com",
       },
       "routes": [
         {
           "custom_domain": true,
-          "pattern": "stage.servicebarracks.com",
+          "pattern": "stage.streaminja.com",
         },
       ],
       "d1_databases": [
@@ -46,10 +46,16 @@
       ],
     },
     "production": {
+      "vars": {
+        "STRIPE_PRODUCT_BASIC": "price_1SH2hAIxOrrhjQWbc0CHSUHg",
+        "STRIPE_PRODUCT_PRO": "price_1SH4HbIxOrrhjQWbsWpz69NX",
+        "STRIPE_PRODUCT_ENTERPRISE": "price_1SH4IRIxOrrhjQWbMJ7At1Sk",
+        "GOOGLE_CLIENT_ID": "29274304605-d34k39pa7lgp0m5pitrjtukofcf4d88g.apps.googleusercontent.com",
+      },
       "routes": [
         {
           "custom_domain": true,
-          "pattern": "servicebarracks.com",
+          "pattern": "streaminja.com",
         },
       ],
       "d1_databases": [
